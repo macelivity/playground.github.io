@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet" type="text/CSS">
+
+    <title>Text Encryption</title>
+
+    <nav class="navbar">
+        <a class="navbarEntity" href="index.html">Homepage</a>
+        <a class="navbarEntity" href="">Text Encryption</a>
+    </nav>
+
+    <header class="header">Text Encryption</header>
+</head>
+
+<body class="body">
+    <div class="area" id="encryptionArea">
+        <p class="inputFieldLabel">Password</p>
+        <input class="inputField" id="passwordInputField" placeholder="Enter password...">
+        <button class="button" id="switchButton" onclick="switchDeEncrypt()">Decrypt</button>
+        <p class="inputFieldLabel" id="textInputLabel">Text to encrypt</p>
+        <textarea class="inputField" id="textInputField" placeholder="Enter text here..." rows="18" cols="120" wrap="soft"></textarea>
+        <br><button class="button" id="startButton" onclick="onStartButtonPressed()">Encrypt!</button>
+        <br><textarea class="inputField" id="outputText" readonly="true" placeholder="Output" rows="18" cols="120" wrap="soft"></textarea>
+
+        <br><br><br><br>
+        <p class="infoText">How it works:</p>
+        <p class="infoText">The text gets encrypted by taking the ascii value of each of your character from the text and adding the ascii value of your character of the password.</p>
+        <p class="infoText">The first character of your text added with the first one of your password, then the next of the text with the next of the password.</p>
+        <p class="infoText">When the code reaches the end of the password it uses the first char of the password again and so on until it reaches the end of your text.</p>
+        <p class="infoText">Now you only need to encrypt your password into the file to make sure you use the right password when decrypting. Therefore smart people developed</p>
+        <p class="infoText">a method called SHA-256 which takes for example a string and converts it into a byte array. Also it works like a one way door:</p>
+        <p class="infoText">you can get to the byte array from the string but you can't get the string from the byte array.</p>
+        <p class="infoText">That way your password is save and your text also can't be decrypted without the password (and without large computation power).</p>
+    </div>
+
+    <script src="encryption.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>

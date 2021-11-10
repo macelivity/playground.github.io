@@ -1,0 +1,114 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: lightblue;
+
+
+    --buttonBackgroundColor: #909090;
+    --buttonBorderColor: #808080;
+}
+
+body{
+    display: block;
+    margin-top: 0px;
+}
+
+
+.area{
+    padding-left: 6px;
+    padding-bottom: 30px;
+    margin: 70px;
+    margin-top: 40px;
+
+    background-color: rosybrown;
+} 
+
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+    text-decoration: underline;
+
+    text-align: center;
+
+    margin: 20px;
+}
+ 
+ 
+.navbar{
+     font-size: large;
+
+     background-color: #a0a0a0;
+
+     width: 80%;
+     
+     padding: 14px;
+     padding-top: 25px;
+     padding-bottom: 20px;
+
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+
+.navbarEntity{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    background-color: var(--buttonBackgroundColor);
+
+    padding: 8px;
+
+    margin: 7px;
+
+    border-style: solid;
+    border-color: var(--buttonBorderColor);
+ }
+
+
+
+.inputFieldLabel{
+    padding-left: 12px;
+    padding-top: 9px;
+    margin: 0px;
+    
+    background-color: inherit;
+}
+
+.inputField{
+    padding: 3px;
+
+    border: 2px;
+    border-style: solid;
+    border-color: #cccccc;
+
+    margin-left: 8px;
+
+    resize: none;
+
+    background-color: #eeeeee;
+}
+
+.button{
+    font-size: large;
+
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: 2px;
+    border-style: solid;
+    border-color: var(--buttonBorderColor);
+
+    margin: 9px;
+    margin-left: 18px;
+}
+
+.infoText{
+    font-size: large;
+
+    margin: 0px;
+    margin-left: 24px;
+
+    background-color: inherit;
+}
