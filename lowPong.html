@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=chrome">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet" type="text/CSS">
+    <link href="lowPong.css" rel="stylesheet" type="text/CSS">
+
+    <title>Text Encryption</title>
+
+    <nav class="navbar">
+        <a class="navbarEntity" href="index.html">Homepage</a>
+        <a class="navbarEntity" href="TextEncryption.html">Text Encryption</a>
+        <a class="navbarEntity" href="">Low Pong</a>
+    </nav>
+
+    <header class="header">Text Encryption</header>
+</head>
+
+<body class="body">
+    <div class="gameArea">
+        <div class="controlsArea">
+            <img class="controlButton" src="lowPongSrcImg/ControlButton.png" alt="Control Button Up" onmouseenter="startMovingUp()" onmouseleave="stopMovingUp()">
+            <img class="controlButton flipY" src="lowPongSrcImg/ControlButton.png" alt="Control Button Down" onmouseenter="startMovingDown()" onmouseleave="stopMovingDown()">
+        </div>
+        <img class="backgroundImg" src="lowPongSrcImg/LPBackgroundImg.png" alt="lP Background">
+    </div>
+
+    <script src="lowPong.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>

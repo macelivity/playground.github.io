@@ -1,7 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
-    background-color: lightblue;
 
     zoom: 0%;
 
@@ -15,14 +14,6 @@ body{
 }
 
 
-.area{
-    padding-left: 6px;
-    padding-bottom: 30px;
-    margin: 70px;
-    margin-top: 40px;
-
-    background-color: rosybrown;
-} 
 
 .header{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -66,29 +57,6 @@ body{
     border-color: var(--buttonBorderColor);
  }
 
-
-
-.inputFieldLabel{
-    padding-left: 12px;
-    padding-top: 9px;
-    margin: 0px;
-    
-    background-color: inherit;
-}
-
-.inputField{
-    padding: 3px;
-
-    border: 2px;
-    border-style: solid;
-    border-color: #cccccc;
-
-    margin-left: 8px;
-
-    resize: none;
-
-    background-color: #eeeeee;
-}
 
 .button{
     font-size: large;

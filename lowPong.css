@@ -1,0 +1,45 @@
+*{
+    background-color: #808080;
+}
+
+
+.gameArea{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.controlsArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 600px;
+
+    margin-right: 20px;
+}
+
+
+.backgroundImg{
+    background-color: #ffffff;
+
+    padding-left: 13px;
+
+    border: 8px;
+    border-left: 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.controlButton{
+    border: 3px;
+    border-style: solid;
+    border-color: #000000;
+
+    margin: 5px;
+}
+
+.flipY{
+    transform: scaleY(-1);
+}

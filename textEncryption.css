@@ -1,0 +1,34 @@
+*{
+    background-color: lightblue;
+}
+
+.area{
+    padding-left: 6px;
+    padding-bottom: 30px;
+    margin: 70px;
+    margin-top: 40px;
+
+    background-color: rosybrown;
+} 
+
+.inputFieldLabel{
+    padding-left: 12px;
+    padding-top: 9px;
+    margin: 0px;
+    
+    background-color: inherit;
+}
+
+.inputField{
+    padding: 3px;
+
+    border: 2px;
+    border-style: solid;
+    border-color: #cccccc;
+
+    margin-left: 8px;
+
+    resize: none;
+
+    background-color: #eeeeee;
+}
