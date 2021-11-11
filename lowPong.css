@@ -32,6 +32,14 @@
     border-color: #000000;
 }
 
+.playerObj{
+    position: relative;
+    top: -260px;
+    left: -950px;
+
+    transform: scaleY(1.25);
+}
+
 .controlButton{
     border: 3px;
     border-style: solid;
