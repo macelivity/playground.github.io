@@ -34,10 +34,13 @@
 
 .playerObj{
     position: relative;
-    top: -260px;
     left: -950px;
 
     transform: scaleY(1.25);
+}
+
+.ball{
+    position: relative;
 }
 
 .controlButton{
@@ -46,7 +49,24 @@
     border-color: #000000;
 
     margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.scoreArea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.scoreText{
+    font-family: arial;
+    font-size: 40px;
+    font-style: italic;
+    text-decoration: underline;
+    margin: 10px;
+}
+
 
 .flipY{
     transform: scaleY(-1);
