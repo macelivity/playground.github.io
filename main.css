@@ -81,3 +81,50 @@ body{
 
     background-color: inherit;
 }
+
+
+.hamsterImage{
+    position: absolute;
+    width: 500px;
+    top: 300px;
+    left: 400px;
+    transform: rotateZ(0deg);
+    
+
+    animation-name: imageAnim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imageAnim {
+    0%{
+        width: 500px;
+        top: 300px;
+        left: 400px;
+        transform: rotateZ(0deg);
+    }
+    16%{
+        width: 100px;
+        top: 500px;
+        left: 600px;
+        transform: rotateZ(0deg);
+    }
+    32%, 48%{
+        width: 100px;
+        top: 500px;
+        left: 1200px;
+        transform: rotateZ(360deg);
+    }
+    64%{
+        width: 100px;
+        top: 500px;
+        left: 600px;
+        transform: rotateZ(0deg);
+    }
+    80%, 100%{
+        width: 500px;
+        top: 300px;
+        left: 400px;
+        transform: rotateZ(0deg);
+    }
+}
